@@ -220,7 +220,7 @@ Style/ArrayJoin:
 
 Style/AsciiComments:
   Description: Use only ascii symbols in comments.
-  Enabled: true
+  Enabled: false
 
 Style/AsciiIdentifiers:
   Description: Use only ascii symbols in identifiers.
@@ -284,7 +284,7 @@ Style/ClassAndModuleCamelCase:
 
 Style/ClassAndModuleChildren:
   Description: Checks style of children classes and modules.
-  Enabled: true
+  Enabled: false
   EnforcedStyle: nested
   SupportedStyles:
   - nested
@@ -351,7 +351,7 @@ Style/ConstantName:
 
 Style/CyclomaticComplexity:
   Description: Avoid complex methods.
-  Enabled: true
+  Enabled: false
   Max: 6
 
 # Supports --auto-correct
@@ -608,7 +608,7 @@ Style/NestedTernaryOperator:
 
 Style/Next:
   Description: Use `next` to skip iteration instead of a condition at the end.
-  Enabled: true
+  Enabled: false
   EnforcedStyle: skip_modifier_ifs
   SupportedStyles:
   - skip_modifier_ifs
@@ -715,7 +715,7 @@ Style/RedundantReturn:
 # Supports --auto-correct
 Style/RedundantSelf:
   Description: Don't use self where it's not needed.
-  Enabled: true
+  Enabled: false
 
 Style/RegexpLiteral:
   Description: Use %r for regular expressions matching more than `MaxSlashes` '/' characters.
