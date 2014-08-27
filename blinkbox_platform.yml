@@ -647,7 +647,7 @@ Style/OpMethod:
 Style/ParameterLists:
   Description: Avoid parameter lists longer than three or four parameters.
   Enabled: true
-  Max: 5
+  Max: 8
   CountKeywordArgs: true
 
 # Supports --auto-correct
